@@ -1,15 +1,15 @@
-# Fake news detection using Support Vector Machine
- 
-This is a Machine Learning model to predict whether a Tweet describing news events is fake or real based only on the post description and other metadata, thus the ML model would be a text classifier and it will not process images. The problem is very similar to the 2015 MediaEval challenge which takes into consideration both images and text to recognise viral fake news. 
+#使用支持向量机SVM进行虚假新闻检测
 
-The data available for training the ML model consists of CSV tweet datasets from the 2015 MediaEval Challenge. The majority of these social media posts describe several events such as Hurricane Sandy and Boston Marathon bombings.
+SVM是一个机器学习模型，仅根据帖子描述和其他元数据来预测描述新闻事件的推文真假，ML模型将是一个文本分类器，它不会处理图像。
 
-The success metric for this ML model is the micro F1-score (accuracy). This score is a value between 0 and 1, the latter indicates the best precision and recall.
-## Results
-- Linear SVM with CountVectorizer (Accuracy: 0.82)
-- Linear SVM with TF-IDF Vectorizer (Accuracy: **0.88**)
+可用于训练ML模型的数据包括来自2015年MediaEval挑战赛的推特数据集。这些社交媒体上的大部分帖子都描述了一些事件，比如飓风桑迪和波士顿马拉松爆炸案。
 
-## References
+这个ML模型的成功度量是f1分数(准确性)。这个分数是0到1之间的值，数值越大表示精度和查全率越好。
+
+# #结果
+-具有CountVectorizer的线性支持向量机SVM(精度:0.82)
+-带TF-IDF矢量的线性支持向量机SVM(精度:**0.88**)
+# #引用
 
 **MediaEval 2015** - [http://www.multimediaeval.org/mediaeval2015/verifyingmultimediause/](http://www.multimediaeval.org/mediaeval2015/verifyingmultimediause/)
 
