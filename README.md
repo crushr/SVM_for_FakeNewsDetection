@@ -7,8 +7,8 @@ SVM是一个机器学习模型，仅根据帖子描述和其他元数据来预�
 这个ML模型的成功度量是f1分数(准确性)。这个分数是0到1之间的值，数值越大表示精度和查全率越好。
 
 ## 结果
--具有CountVectorizer的线性支持向量机SVM(精度:0.82)
--带TF-IDF矢量的线性支持向量机SVM(精度:**0.88**)
+- 具有CountVectorizer的线性支持向量机SVM(精度:0.82)
+- 带TF-IDF矢量的线性支持向量机SVM(精度:**0.88**)
 ## 引用
 
 **MediaEval 2015** - [http://www.multimediaeval.org/mediaeval2015/verifyingmultimediause/](http://www.multimediaeval.org/mediaeval2015/verifyingmultimediause/)
